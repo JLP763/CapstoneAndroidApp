@@ -9,14 +9,17 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/taylor_orange"
         android:theme="@style/Theme.TaylorInsurance.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.TaylorInsurance.PopupOverlay" />
+            android:background="@color/taylor_orange_variant"
+            app:popupTheme="@style/Theme.TaylorInsurance.PopupOverlay"
+            app:subtitleTextColor="@color/white"
+            app:titleTextColor="@color/white" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
