@@ -19,4 +19,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivHome"
+        android:layout_width="501dp"
+        android:layout_height="352dp"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toTopOf="@+id/text_home_insurance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415"
+        android:contentDescription="@string/imgHome" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

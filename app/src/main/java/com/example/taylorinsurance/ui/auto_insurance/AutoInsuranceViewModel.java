@@ -10,7 +10,7 @@ public class AutoInsuranceViewModel extends ViewModel {
 
     public AutoInsuranceViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is auto insurance tips fragment");
+        mText.setValue("With Taylor auto insurance, you get the coverage you need at the right price for you by ensuring you get all the discounts you qualify for!");
     }
 
     public LiveData<String> getText() {

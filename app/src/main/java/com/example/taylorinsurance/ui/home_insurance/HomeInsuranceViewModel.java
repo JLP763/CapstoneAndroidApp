@@ -10,7 +10,7 @@ public class HomeInsuranceViewModel extends ViewModel {
 
     public HomeInsuranceViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home insurance tips fragment");
+        //mText.setValue();
     }
 
     public LiveData<String> getText() {

@@ -12,4 +12,8 @@
     <string name="taylor_insurance">Taylor Insurance</string>
     <string name="home_tips">Home Insurance</string>
     <string name="auto_tips">Auto Insurance</string>
+    <string name="imgAuto">imgAuto</string>
+    <string name="imgHome">imgHome</string>
+    <string name="autoInsuranceHeader">Taylor Insurance finds the right coverage for your vehicle.</string>
+    <string name="autoInsuranceBody">With Taylor auto insurance, you get the coverage you need at the right price for you by ensuring you get all the discounts you qualify for!</string>
 </resources>
