@@ -3,23 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_profile">
+    app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_profile"
+        android:id="@+id/nav_home"
         android:name="com.example.taylorinsurance.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/taylor_insurance"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.taylorinsurance.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_home_insurance"
+        android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceFragment"
+        android:label="@string/home_tips"
+        tools:layout="@layout/fragment_home_insurance" />
 
     <fragment
-        android:id="@+id/nav_auto"
-        android:name="com.example.taylorinsurance.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_auto_insurance"
+        android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceFragment"
+        android:label="@string/auto_tips"
+        tools:layout="@layout/fragment_auto_insurance" />
+
 </navigation>
