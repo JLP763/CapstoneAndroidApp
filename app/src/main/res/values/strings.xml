@@ -21,4 +21,21 @@
     <string name="get_quote">Get a Quote</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="described_automobile">Described Automobile:</string>
+    <string name="tvAuto">2015 Honda Civic EX 4DR</string>
+    <string name="tvCoverages">Insurance Coverages</string>
+    <string name="tvPremium">Premium</string>
+    <string name="base_premium">Base Premium</string>
+    <string name="basecost">$ 750</string>
+    <string name="drivercost">$ 0</string>
+    <string name="vehiclecost">$ 375</string>
+    <string name="accidentcost">$ 0</string>
+    <string name="drivername">Jennifer Power</string>
+    <string name="driver_age">Drivers Age</string>
+    <string name="vehicle_age">Vehicle Age</string>
+    <string name="total_policy_premium">Total Policy Premium</string>
+    <string name="accident_benefit">Accident Benefit</string>
+    <string name="totalcost">$ 1125</string>
+    <string name="insured_drivers">Insured Drivers:</string>
+    <string name="autopolicy">Automobile Insurance Policy Number JLP23432</string>
 </resources>
