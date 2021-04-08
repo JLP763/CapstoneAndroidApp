@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModel;
 
 public class AutoInsuranceViewModel extends ViewModel {
 
+
+
     private MutableLiveData<String> mText;
 
     public AutoInsuranceViewModel() {

@@ -16,11 +16,34 @@
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceFragment"
         android:label="@string/home_tips"
         tools:layout="@layout/fragment_home_insurance" />
+    <fragment
+        android:id="@+id/nav_home_insurance_quote"
+        android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceQuote"
+        android:label="Home Insurance Quote"
+        tools:layout="@layout/fragment_home_insurance_quote"/>
+
+    <fragment
+        android:id="@+id/nav_home_insurance_policy"
+        android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsurancePolicy"
+        android:label="Home Insurance Policy"
+        tools:layout="@layout/fragment_home_insurance_policy"/>
 
     <fragment
         android:id="@+id/nav_auto_insurance"
         android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceFragment"
         android:label="@string/auto_tips"
         tools:layout="@layout/fragment_auto_insurance" />
+
+    <fragment
+        android:id="@+id/nav_auto_insurance_quote"
+        android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceQuote"
+        android:label="Auto Insurance Quote"
+        tools:layout="@layout/fragment_auto_insurance_quote"/>
+
+    <fragment
+        android:id="@+id/nav_auto_insurance_policy"
+        android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsurancePolicy"
+        android:label="Auto Insurance Policy"
+        tools:layout="@layout/fragment_auto_insurance_policy"/>
 
 </navigation>

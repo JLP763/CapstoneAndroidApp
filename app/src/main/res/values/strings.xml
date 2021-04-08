@@ -19,4 +19,6 @@
     <string name="home_header">Taylor Insurance finds the right coverage for your home.</string>
     <string name="view_policy">View Policy</string>
     <string name="get_quote">Get a Quote</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
