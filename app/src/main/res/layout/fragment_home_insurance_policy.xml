@@ -6,7 +6,201 @@
     android:layout_height="match_parent"
     tools:context=".ui.home_insurance.HomeInsurancePolicy">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvInsurer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/described_home"
+        android:textColor="@color/taylor_orange"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAutoPolicy"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/tvAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvInsurer"
+        app:layout_constraintTop_toBottomOf="@+id/tvInsurer"
+        app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvCoverages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCoverages"
+            android:textColor="@color/taylor_orange"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvAuto"
+            app:layout_constraintTop_toBottomOf="@+id/tvAuto"
+            app:layout_constraintVertical_bias="0.033" />
+
+        <TextView
+            android:id="@+id/tvPremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPremium"
+            android:textColor="@color/taylor_orange"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCoverages"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.783"
+            app:layout_constraintStart_toEndOf="@+id/tvCoverages"
+            app:layout_constraintTop_toTopOf="@+id/tvCoverages"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tvBasePremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/base_premium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvCoverages"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvCoverages"
+            app:layout_constraintTop_toBottomOf="@+id/tvCoverages"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvDriversAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/house_age"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvBasePremium"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvBasePremium"
+        app:layout_constraintTop_toBottomOf="@+id/tvBasePremium"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <TextView
+        android:id="@+id/tvVehicleAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/heating_type"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvDriversAge"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvDriversAge"
+        app:layout_constraintTop_toBottomOf="@+id/tvDriversAge"
+        app:layout_constraintVertical_bias="0.004" />
+
+        <TextView
+            android:id="@+id/tvBaseAmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/basecost"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBasePremium"
+            app:layout_constraintEnd_toEndOf="@+id/tvPremium"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tvBasePremium"
+            app:layout_constraintTop_toTopOf="@+id/tvBasePremium"
+            app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvDriverAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homeagecost"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDriversAge"
+        app:layout_constraintEnd_toEndOf="@+id/tvBaseAmt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvDriversAge"
+        app:layout_constraintTop_toTopOf="@+id/tvDriversAge"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvAutoAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heatingcost"
+        app:layout_constraintBottom_toBottomOf="@+id/tvVehicleAge"
+        app:layout_constraintEnd_toEndOf="@+id/tvDriverAge"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvVehicleAge"
+        app:layout_constraintTop_toTopOf="@+id/tvVehicleAge"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvAccident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dwellingtype"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvVehicleAge"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvVehicleAge"
+        app:layout_constraintTop_toBottomOf="@+id/tvVehicleAge"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvAccidentCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dwellingcost"
+        app:layout_constraintBottom_toBottomOf="@+id/tvAccident"
+        app:layout_constraintEnd_toEndOf="@+id/tvAutoAge"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvAccident"
+        app:layout_constraintTop_toTopOf="@+id/tvAccident"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvTotalPremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_homepolicy_premium"
+        android:textColor="@color/taylor_orange"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAccident"
+        app:layout_constraintTop_toBottomOf="@+id/tvAccident"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/totalhomecost"
+        android:textColor="@color/taylor_orange"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalPremium"
+        app:layout_constraintEnd_toEndOf="@+id/tvAccidentCost"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tvTotalPremium"
+        app:layout_constraintTop_toTopOf="@+id/tvTotalPremium" />
+
+    <TextView
+        android:id="@+id/tvAutoPolicy"
+        android:layout_width="190dp"
+        android:layout_height="71dp"
+        android:text="@string/homepolicy"
+        android:textAlignment="center"
+        android:textColor="@color/taylor_orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
 
     <ImageView
         android:id="@+id/ivFooter"

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
@@ -15,35 +15,50 @@
         android:id="@+id/nav_home_insurance"
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceFragment"
         android:label="@string/home_tips"
-        tools:layout="@layout/fragment_home_insurance" />
+        tools:layout="@layout/fragment_home_insurance" >
+        <action
+            android:id="@+id/viewhomepolicy"
+            app:destination="@id/nav_home_insurance_policy" />
+        <action
+            android:id="@+id/viewhomequote"
+            app:destination="@id/nav_home_insurance_quote" />
+    </fragment>
+
     <fragment
         android:id="@+id/nav_home_insurance_quote"
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceQuote"
         android:label="Home Insurance Quote"
-        tools:layout="@layout/fragment_home_insurance_quote"/>
+        tools:layout="@layout/fragment_home_insurance_quote" />
 
     <fragment
         android:id="@+id/nav_home_insurance_policy"
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsurancePolicy"
         android:label="Home Insurance Policy"
-        tools:layout="@layout/fragment_home_insurance_policy"/>
+        tools:layout="@layout/fragment_home_insurance_policy" />
 
     <fragment
         android:id="@+id/nav_auto_insurance"
         android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceFragment"
         android:label="@string/auto_tips"
-        tools:layout="@layout/fragment_auto_insurance" />
+        tools:layout="@layout/fragment_auto_insurance" >
+        <action
+            android:id="@+id/getautoquote"
+            app:destination="@id/nav_auto_insurance_quote" />
+        <action
+            android:id="@+id/viewautopolicy"
+            app:destination="@id/nav_auto_insurance_policy" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_auto_insurance_quote"
         android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceQuote"
         android:label="Auto Insurance Quote"
-        tools:layout="@layout/fragment_auto_insurance_quote"/>
+        tools:layout="@layout/fragment_auto_insurance_quote" />
 
     <fragment
         android:id="@+id/nav_auto_insurance_policy"
         android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsurancePolicy"
         android:label="Auto Insurance Policy"
-        tools:layout="@layout/fragment_auto_insurance_policy"/>
+        tools:layout="@layout/fragment_auto_insurance_policy" />
 
 </navigation>

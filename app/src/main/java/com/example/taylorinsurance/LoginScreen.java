@@ -21,9 +21,9 @@ public class LoginScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_screen);
 
-        Username = (EditText)findViewById(R.id.etName);
-        Password = (EditText)findViewById(R.id.etPassword);
-        Login = (Button)findViewById(R.id.btnLogin);
+        Username = findViewById(R.id.etName);
+        Password = findViewById(R.id.etPassword);
+        Login = findViewById(R.id.btnLogin);
 
         //Login
         Login.setOnClickListener(new View.OnClickListener() {

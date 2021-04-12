@@ -19,7 +19,9 @@
     <string name="home_header">Taylor Insurance finds the right coverage for your home.</string>
     <string name="view_policy">View Policy</string>
     <string name="get_quote">Get a Quote</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Auto Insurance Policy -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="described_automobile">Described Automobile:</string>
     <string name="tvAuto">2015 Honda Civic EX 4DR</string>
@@ -27,15 +29,35 @@
     <string name="tvPremium">Premium</string>
     <string name="base_premium">Base Premium</string>
     <string name="basecost">$ 750</string>
-    <string name="drivercost">$ 0</string>
-    <string name="vehiclecost">$ 375</string>
-    <string name="accidentcost">$ 0</string>
+    <string name="drivercost">x   1.0</string>
+    <string name="vehiclecost">x   1.5</string>
+    <string name="accidentcost">x   1.0</string>
     <string name="drivername">Jennifer Power</string>
-    <string name="driver_age">Drivers Age</string>
-    <string name="vehicle_age">Vehicle Age</string>
+    <string name="driver_age">Drivers Age Factor</string>
+    <string name="vehicle_age">Vehicle Age Factor</string>
     <string name="total_policy_premium">Total Policy Premium</string>
-    <string name="accident_benefit">Accident Benefit</string>
+    <string name="accident_benefit">Accident Factor</string>
     <string name="totalcost">$ 1125</string>
     <string name="insured_drivers">Insured Drivers:</string>
     <string name="autopolicy">Automobile Insurance Policy Number JLP23432</string>
+
+    <!-- Home Insurance Policy -->
+    <string name="described_home">Insured House:</string>
+    <string name="tvHome">18 Babb Crescent, Mount Pearl, NL</string>
+    <string name="tvHomeCoverages">Insurance Coverages</string>
+    <string name="tvHomePremium">Premium</string>
+    <string name="Home_base_premium">Base Premium</string>
+    <string name="basepremium">$ 500</string>
+    <string name="homeagecost">x   1.5</string>
+    <string name="heatingcost">x   2.0</string>
+    <string name="dwellingcost">x   1.0</string>
+    <string name="insured">Jennifer Power</string>
+    <string name="house_age">House Age: 27 years</string>
+    <string name="heating_type">Heating Type: Oil</string>
+    <string name="total_homepolicy_premium">Total Policy Premium</string>
+    <string name="dwellingtype">Dwelling Factor: Bungalow</string>
+    <string name="totalhomecost">$ 1500</string>
+    <string name="homepolicy">Home Insurance Policy Number JLP23432</string>
+    <string name="locationcost">x 1.0</string>
+    <string name="location_premium">Location Premium</string>
 </resources>
