@@ -60,4 +60,41 @@
     <string name="homepolicy">Home Insurance Policy Number JLP23432</string>
     <string name="locationcost">x 1.0</string>
     <string name="location_premium">Location Premium</string>
+
+
+    <!-- Auto Quote-->
+    <string-array name="locations">
+        <item>Urban</item>
+        <item>Dense Urban</item>
+        <item>Rural</item>
+    </string-array>
+    <string name="vehicle_manufacturer">Vehicle Manufacturer</string>
+    <string name="vehicle_model">Vehicle Model</string>
+    <string name="vehicle_location">Vehicle Location</string>
+    <string name="color_of_vehicle">Color of Vehicle</string>
+    <string name="number_of_accidents_last_5_years">Accidents (last 5 years)</string>
+    <string name="msrp">MSRP</string>
+    <string name="get_a_quote_in_minutes">Get a Quote in Minutes!</string>
+    <string name="submit">Submit</string>
+    <string name="dwelling_type">Dwelling Type</string>
+    <string name="house_value">House Value</string>
+    <string name="tvheating_type">Heating Type</string>
+    <string name="tvhome_age">Home Age</string>
+
+
+    <!-- Home Quote -->
+    <string-array name="dwellingtype">
+        <item>Single Dwelling</item>
+        <item>Apartment</item>
+        <item>Bungalow</item>
+        <item>Semi-attached</item>
+    </string-array>
+
+    <string-array name="heatingtype">
+        <item>Electric</item>
+        <item>Oil</item>
+        <item>Wood</item>
+        <item>Gas</item>
+        <item>Other</item>
+    </string-array>
 </resources>
