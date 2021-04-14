@@ -1,15 +1,14 @@
-package com.example.taylorinsurance.ui.home_insurance;
+package com.example.taylorinsurance.ui.auto_insurance;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeInsuranceViewModel extends ViewModel {
-
+public class AutoInsuranceQuoteFormViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
 
-    public HomeInsuranceViewModel() {
+    public AutoInsuranceQuoteFormViewModel() {
         mText = new MutableLiveData<>();
         //mText.setValue();
 
@@ -18,8 +17,4 @@ public class HomeInsuranceViewModel extends ViewModel {
     public LiveData<String> getText() {
         return mText;
     }
-
-
-
-
 }

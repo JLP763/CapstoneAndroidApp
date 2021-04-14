@@ -12,6 +12,19 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_account_management"
+        android:name="com.example.taylorinsurance.ui.AccountManagement"
+        android:label="@string/taylor_insurance"
+        tools:layout="@layout/account_management_fragment">
+        <action
+            android:id="@+id/viewhomepolicy"
+            app:destination="@id/nav_home_insurance_policy" />
+        <action
+            android:id="@+id/viewautopolicy"
+            app:destination="@id/nav_auto_insurance_policy" />
+    </fragment>
+
+    <fragment
         android:id="@+id/nav_home_insurance"
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceFragment"
         android:label="@string/home_tips"
@@ -21,14 +34,24 @@
             app:destination="@id/nav_home_insurance_policy" />
         <action
             android:id="@+id/viewhomequote"
-            app:destination="@id/nav_home_insurance_quote" />
+            app:destination="@id/nav_home_insurance_quote_form" />
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_home_insurance_quote_form"
+        android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceQuoteForm"
+        android:label="Home Insurance Quote Form"
+        tools:layout="@layout/fragment_home_insurance_quote_form" >
+        <action
+            android:id="@+id/getHomequote"
+            app:destination="@id/nav_home_insurance_quote" />
+    </fragment>
     <fragment
         android:id="@+id/nav_home_insurance_quote"
         android:name="com.example.taylorinsurance.ui.home_insurance.HomeInsuranceQuote"
         android:label="Home Insurance Quote"
         tools:layout="@layout/fragment_home_insurance_quote" />
+
 
     <fragment
         android:id="@+id/nav_home_insurance_policy"
@@ -43,10 +66,20 @@
         tools:layout="@layout/fragment_auto_insurance" >
         <action
             android:id="@+id/getautoquote"
-            app:destination="@id/nav_auto_insurance_quote" />
+            app:destination="@id/nav_auto_insurance_quote_form" />
         <action
             android:id="@+id/viewautopolicy"
             app:destination="@id/nav_auto_insurance_policy" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_auto_insurance_quote_form"
+        android:name="com.example.taylorinsurance.ui.auto_insurance.AutoInsuranceQuoteForm"
+        android:label="Auto Insurance Quote Form"
+        tools:layout="@layout/fragment_auto_insurance_quote_form" >
+        <action
+            android:id="@+id/getAutoQuote"
+            app:destination="@id/nav_auto_insurance_quote" />
     </fragment>
 
     <fragment

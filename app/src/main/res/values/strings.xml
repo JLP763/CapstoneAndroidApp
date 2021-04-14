@@ -9,6 +9,7 @@
 
 
     <string name="profile">Profile</string>
+    <string name="logout">Sign Out</string>
     <string name="taylor_insurance">Taylor Insurance</string>
     <string name="home_tips">Home Insurance</string>
     <string name="auto_tips">Auto Insurance</string>
@@ -39,7 +40,7 @@
     <string name="accident_benefit">Accident Factor</string>
     <string name="totalcost">$ 1125</string>
     <string name="insured_drivers">Insured Drivers:</string>
-    <string name="autopolicy">Automobile Insurance Policy Number JLP23432</string>
+    <string name="autopolicy">Auto Insurance Policy</string>
 
     <!-- Home Insurance Policy -->
     <string name="described_home">Insured House:</string>
@@ -57,17 +58,12 @@
     <string name="total_homepolicy_premium">Total Policy Premium</string>
     <string name="dwellingtype">Dwelling Factor: Bungalow</string>
     <string name="totalhomecost">$ 1500</string>
-    <string name="homepolicy">Home Insurance Policy Number JLP23432</string>
+    <string name="homepolicy">Home Insurance Policy</string>
     <string name="locationcost">x 1.0</string>
     <string name="location_premium">Location Premium</string>
 
 
     <!-- Auto Quote-->
-    <string-array name="locations">
-        <item>Urban</item>
-        <item>Dense Urban</item>
-        <item>Rural</item>
-    </string-array>
     <string name="vehicle_manufacturer">Vehicle Manufacturer</string>
     <string name="vehicle_model">Vehicle Model</string>
     <string name="vehicle_location">Vehicle Location</string>
@@ -75,21 +71,53 @@
     <string name="number_of_accidents_last_5_years">Accidents (last 5 years)</string>
     <string name="msrp">MSRP</string>
     <string name="get_a_quote_in_minutes">Get a Quote in Minutes!</string>
-    <string name="submit">Submit</string>
+    <string name="submit">Get a Quote!</string>
+    <string-array name="locations">
+        <item>Urban</item>
+        <item>Dense Urban</item>
+        <item>Rural</item>
+    </string-array>
+
+
+    <!-- Home Quote -->
     <string name="dwelling_type">Dwelling Type</string>
     <string name="house_value">House Value</string>
     <string name="tvheating_type">Heating Type</string>
     <string name="tvhome_age">Home Age</string>
-
-
-    <!-- Home Quote -->
+    <string name="profileaddress">15 Willenhall Place \nSt. John\'s, NL \nA1E 0E7</string>
+    <string name="active_policies">Active Policies</string>
+    <string name="auto_policy">Auto Policy</string>
+    <string name="home_policy">Home Policy</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="email">Email:</string>
+    <string name="kevin_dutton">Kevin Dutton</string>
+    <string name="_709_555_1234">709–555-1234</string>
+    <string name="kdutton_hotmail_com">kdutton@hotmail.com</string>
+    <string name="disclaimer">This is not an offer of coverage. Price of the policy may change upon request of additional information when speaking to one of our agents.</string>
+    <string name="contact">Contact us today to get this quote!</string>
+    <string name="peryear">/yr*</string>
+    <string name="housequoteamt">$ 1250</string>
+    <string name="autoquoteamt">$3515.63</string>
+    <string name="car_age">Vehicle Age</string>
+    <string name="maintain_your_home">Maintain Your Home</string>
+    <string name="hometip1">Keeping your property in tip-top shape protects your against further damage.</string>
+    <string name="hometip2">A security system gives you extra protection, plus you could be eligible for discounts on your insurance.</string>
+    <string name="home_security_systems">Home Security Systems</string>
+    <string name="mindful_driving">Mindful Driving</string>
+    <string name="autotip1">Maintaing a safe driving record is key to getting lower auto insurance rates.</string>
+    <string name="anti_theft_device">Anti Theft Device</string>
+    <string name="autotip2">Lower youre annual premiums by installing an anti theft device in your vehicle.</string>
+    <string name="account_management">Account Management</string>
+    <string name="get_a_quote">Get a Quote</string>
+    <string name="view_your_policy">View your Policy</string>
     <string-array name="dwellingtype">
         <item>Single Dwelling</item>
         <item>Apartment</item>
         <item>Bungalow</item>
         <item>Semi-attached</item>
     </string-array>
-
     <string-array name="heatingtype">
         <item>Electric</item>
         <item>Oil</item>

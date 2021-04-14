@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.auto_insurance.AutoInsurancePolicy">
 
-    <!-- TODO: Update blank fragment layout -->
-
     <ImageView
         android:id="@+id/ivFooter"
         android:layout_width="wrap_content"
@@ -23,6 +21,7 @@
         android:id="@+id/tvInsurer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="@string/described_automobile"
         android:textColor="@color/taylor_orange"
         android:textStyle="bold"
@@ -31,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAutoPolicy"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvAuto"
@@ -200,8 +199,8 @@
 
     <TextView
         android:id="@+id/tvAutoPolicy"
-        android:layout_width="190dp"
-        android:layout_height="71dp"
+        android:layout_width="196dp"
+        android:layout_height="33dp"
         android:text="@string/autopolicy"
         android:textAlignment="center"
         android:textColor="@color/taylor_orange"
@@ -212,7 +211,7 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.01999998" />
 
     <TextView
         android:id="@+id/tvLocation"

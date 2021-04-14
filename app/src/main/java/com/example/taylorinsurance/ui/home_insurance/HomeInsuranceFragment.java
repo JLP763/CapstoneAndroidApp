@@ -26,8 +26,7 @@ public class HomeInsuranceFragment extends Fragment {
                 new ViewModelProvider(this).get(HomeInsuranceViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home_insurance, container, false);
         final TextView textView = root.findViewById(R.id.text_home_insurance);
-        homeInsuranceViewModel.getText().observe(getViewLifecycleOwner(), s -> textView.setText(s));
-
+        homeInsuranceViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 
         viewPolicy = root.findViewById(R.id.btnViewPolicy);
         viewPolicy.setOnClickListener(view -> Navigation.findNavController(view).navigate(R.id.viewhomepolicy));

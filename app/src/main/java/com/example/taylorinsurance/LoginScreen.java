@@ -26,22 +26,17 @@ public class LoginScreen extends AppCompatActivity {
         Login = findViewById(R.id.btnLogin);
 
         //Login
-        Login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                authenticate(Username.getText().toString(),Password.getText().toString());
-            }
-        });
+        Login.setOnClickListener(v -> authenticate(Username.getText().toString(),Password.getText().toString()));
 
     }
 
     //Function for authenticating login
     private void authenticate(String username, String password){
-        if ((username.equals("P3N")) && (password.equals("P3N"))){
+        if ((username.equals("kdutton")) && (password.equals("dutton"))){
             Intent intent = new Intent(LoginScreen.this, MainActivity.class);
             startActivity(intent);
         } else{
-            Toast toast = Toast.makeText(LoginScreen.this, "Username and Password cannot be null.",Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(LoginScreen.this, "Incorrect username and password.",Toast.LENGTH_LONG);
             toast.show();
         }
     }

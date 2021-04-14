@@ -10,6 +10,7 @@
         android:id="@+id/ivFooter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:adjustViewBounds="true"
         android:src="@drawable/orange"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,205 +21,77 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/tvManufacturer"
+        android:id="@+id/tvAutoQuoteAmt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/vehicle_manufacturer"
+        android:text="@string/autoquoteamt"
         android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvGetAutoQuote"
-        app:layout_constraintVertical_bias="0.061" />
-
-    <TextView
-        android:id="@+id/tvModel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/vehicle_model"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tvManufacturer"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvManufacturer"
-        app:layout_constraintTop_toBottomOf="@+id/tvManufacturer"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvVehicleLocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/vehicle_location"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tvModel"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvModel"
-        app:layout_constraintTop_toBottomOf="@+id/tvModel"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/color_of_vehicle"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tvVehicleLocation"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvVehicleLocation"
-        app:layout_constraintTop_toBottomOf="@+id/tvVehicleLocation"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvNumOfAccidents"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/number_of_accidents_last_5_years"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tvColor"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvColor"
-        app:layout_constraintTop_toBottomOf="@+id/tvColor"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvmsrp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/msrp"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tvNumOfAccidents"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvNumOfAccidents"
-        app:layout_constraintTop_toBottomOf="@+id/tvNumOfAccidents"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/tvGetAutoQuote"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/get_a_quote_in_minutes"
-        android:textColor="@color/taylor_orange"
-        android:textSize="18sp"
+        android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.311"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.239" />
 
-    <EditText
-        android:id="@+id/etManufacturer"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvManufacturer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvManufacturer"
-        app:layout_constraintTop_toTopOf="@+id/tvManufacturer"
-        tools:text="Manufacturer"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/etColor"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvColor"
-        app:layout_constraintEnd_toEndOf="@+id/spinner"
-        app:layout_constraintStart_toStartOf="@+id/spinner"
-        app:layout_constraintTop_toTopOf="@+id/tvColor"
-        tools:text="Color"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/etModel"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvModel"
-        app:layout_constraintEnd_toEndOf="@+id/etManufacturer"
-        app:layout_constraintStart_toStartOf="@+id/etManufacturer"
-        app:layout_constraintTop_toTopOf="@+id/tvModel"
-        tools:text="Model"
-        android:importantForAutofill="no" />
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:entries="@array/locations"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="@+id/tvVehicleLocation"
-        app:layout_constraintEnd_toEndOf="@+id/etModel"
-        app:layout_constraintStart_toStartOf="@+id/etModel"
-        app:layout_constraintTop_toTopOf="@+id/tvVehicleLocation" />
-
-    <EditText
-        android:id="@+id/etAccidents"
-        android:layout_width="85dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvNumOfAccidents"
-        app:layout_constraintEnd_toEndOf="@+id/etColor"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/etColor"
-        app:layout_constraintTop_toTopOf="@+id/tvNumOfAccidents"
-        android:importantForAutofill="no" />
-
-    <EditText
-        android:id="@+id/etMSRP"
-        android:layout_width="160dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textAlignment="center"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvmsrp"
-        app:layout_constraintEnd_toEndOf="@+id/etAccidents"
-        app:layout_constraintStart_toStartOf="@+id/etColor"
-        app:layout_constraintTop_toTopOf="@+id/tvmsrp"
-        android:importantForAutofill="no" />
-
-    <Button
-        android:id="@+id/btnSubmit"
+    <TextView
+        android:id="@+id/tvYear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/submit"
-        app:layout_constraintBottom_toTopOf="@+id/ivFooter"
+        android:text="@string/peryear"
+        android:textColor="@color/taylor_orange"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvAutoQuoteAmt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMSRP"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvAutoQuoteAmt"
+        app:layout_constraintTop_toTopOf="@+id/tvAutoQuoteAmt"
         app:layout_constraintVertical_bias="1.0" />
 
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/contact"
+        android:textAlignment="center"
+        android:textColor="@color/taylor_orange"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAutoQuoteAmt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/companylogo4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvDisclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/disclaimer"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivFooter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvContact"
+        app:layout_constraintVertical_bias="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

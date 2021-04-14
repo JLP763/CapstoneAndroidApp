@@ -8,6 +8,10 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/logo"
             android:title="@string/taylor_insurance" />
+        <item
+            android:id="@+id/nav_account_management"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile"/>
 
         <item
             android:id="@+id/nav_home_insurance"
@@ -15,12 +19,12 @@
             android:title="@string/home_tips" />
 
         <item
-            android:id="@+id/nav_home_insurance_quote"
-            android:title="Get a Quote"/>
+            android:id="@+id/nav_home_insurance_quote_form"
+            android:title="@string/get_a_quote"/>
 
         <item
             android:id="@+id/nav_home_insurance_policy"
-            android:title="View your Policy"/>
+            android:title="@string/view_your_policy"/>
 
         <item
             android:id="@+id/nav_auto_insurance"
@@ -28,12 +32,12 @@
             android:title="@string/auto_tips" />
 
         <item
-            android:id="@+id/nav_auto_insurance_quote"
-            android:title="Get a Quote"/>
+            android:id="@+id/nav_auto_insurance_quote_form"
+            android:title="@string/get_a_quote"/>
 
         <item
             android:id="@+id/nav_auto_insurance_policy"
-            android:title="View your Policy"/>
-    </group>
+            android:title="@string/view_your_policy"/>
 
+    </group>
 </menu>
